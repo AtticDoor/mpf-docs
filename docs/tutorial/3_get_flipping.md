@@ -23,7 +23,7 @@ friendly switch names. (This is what makes it possible to interact with
 switch names like "left_flipper" and "right_inlane" versus "switch
 27" or "switch 19".)
 
-So on the line after the `#config_version=5` entry from the previous
+So on the line after the `#config_version=6` entry from the previous
 tutorial step, write `switches:` (note the colon). Then on the next
 line, type four spaces (these must be spaces, not a tab), and write
 `s_left_flipper:`. Then on the next line, type eight spaces and add
@@ -32,7 +32,7 @@ line, type four spaces (these must be spaces, not a tab), and write
 So now your `config.yaml` file should look like this:
 
 ``` mpf-config
-#config_version=5
+#config_version=6
 
 switches:
   s_left_flipper:
